@@ -1,17 +1,17 @@
 #include <iostream>
 using namespace std;
 
-float calcularPerimetro(float);
+float calcularPerímetro(float); //Prototipo de función
 
 int main(){
 	double lado;
-	cout << "Ingrese el lado del cuadrado: " << endl;
+	cout << "Ingrese el lado del cuadrado " << endl; 
 	cin >> lado;
-	cout << "El perimetro del cuadrado es: " << calcularPerimetro(lado);
-	return 0;
-}
-
-float calcularPerimetro (float lado){
-	double perimetro = lado * 4;
-	return perimetro;
+	cout << "El perimetro del cuadrado es: " << calcularPerímetro(lado) ;
+	return 0
+	}	
+	
+	float calcularPerímetro(float lado){
+		double perímetro = lado * 4;
+	return perímetro;	
 }
